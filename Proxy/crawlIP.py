@@ -18,7 +18,7 @@ def get_proxys_info(soup):
     for proxy_soup in proxy_soup_list:
         proxy_info_dict = {}
         proxy_info_list = proxy_soup.findAll('td')
-        info_list = ['IP','port','anonymity','ptype','locate','resspeed','last_c_time']
+        info_list = ['IP','port','anonymity','ptype','locate','resspeed']
         for i in range(len(info_list)):
             proxy_info_dict[info_list[i]] = proxy_info_list[i].text
         proxys_info_list.append(proxy_info_dict)

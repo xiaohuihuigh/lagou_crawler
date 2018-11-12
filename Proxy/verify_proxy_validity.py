@@ -3,31 +3,28 @@ import requests
 import json
 import time
 import os
+import etc
 import re
 import io
 import sys
 from selenium import webdriver
 # from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
-test_url = 'https://www/baidu.com'
+verified_url = etc.verified_url
 
-def check_IP_in_inactive_queue(IP_info):
-    return False
-def check_IP_Connectable(IP_info):
+def verify_proxy(IP_info):
     proxies = {
-            IP_info['ptype']:'http://'+IP_info['IP']+':'+IP_info['port']
-        }
+        IP_info['ptype']: IP_info['ptype']+'://' + IP_info['IP'] + ':' + IP_info['port']
+    }
     try:
-        rsp = requests.get(test_url,proxies=proxies,timeout=10)
+        requests.get(verified_url, proxies=proxies, timeout=10)
     except Exception as e:
         print(e)
-        return False,None
+        return False, None
     else:
-        return True,time.time()
+        return True, int(time.time())
 
 
-def insert_IP_in_inactive_queue(IP_info):
-    pass
 '''
 check an IP info is a new valuable proxy
 if it`s a new valuable one
@@ -36,20 +33,6 @@ else
     pass,return False
 
 '''
-def check_IP_useful(IP_info):
-    if check_IP_in_inactive_queue(IP_info):
-        return
-    TF,T = check_IP_Connectable(IP_info)
-    if TF == True:
-        IP_info['last_c_time'] = T
-        insert_IP_in_inactive_queue(IP_info)
-        return True
-    else:
-        print (IP_info['IP'],'cant connect,it`s a wrong proxy')
-        return False
-
-
-#
 # dcap = dict(DesiredCapabilities.PHANTOMJS)
 # dcap["phantomjs.page.settings.userAgent"] = (
 # "Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.23 Mobile Safari/537.36"

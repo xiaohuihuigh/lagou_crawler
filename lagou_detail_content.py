@@ -24,7 +24,7 @@ import sys
 
 # -----retry parameter area start
 _tries_ = 10
-_delay_ = 5
+_elay_ = 5
 _backoff_ = 5
 server = True
 
