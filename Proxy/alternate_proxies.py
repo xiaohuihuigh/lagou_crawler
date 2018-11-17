@@ -2,6 +2,7 @@ import proxy_io
 import verify_proxy_validity
 import time
 import etc
+import json
 '''
 处理一条IP的流程的类
 包含，
@@ -40,7 +41,12 @@ class Proxy_processing(object):
     '''
     def get_a_proxy(self):
         if self.type == 'alternate':
-            return False,None
+            IP_info = alternate_get_a_proxy()
+            print(IP_info)
+            if IP_info == None:
+                return False,None
+            return True,IP_info
+            # return False,None
         elif self.type == 'immediate':
             try:
                 IP_info=self.from_redis.pop_proxy()
@@ -52,7 +58,7 @@ class Proxy_processing(object):
     获得一个IP，在检测可用性后如果可用加入to_db中，不可用raise一个错误出来
     '''
     def push_or_discare(self,IP_info):
-        intf,last_c_time=proxy_io.redis_io.check_proxy()
+        intf,last_c_time=proxy_io.ProxiesIO.check_proxy()
         if intf and int(time.time()) - last_c_time >=self.effective_time or not intf:#在队列中但是超过有效时间
             fn,last_c_time=verify_proxy_validity.verify_proxy()
             if fn == True:
@@ -69,14 +75,33 @@ class Proxy_processing(object):
     def should_add_to_db(self):
         return self.to_redis.check_len_db() - self.mlen < 0
 
+def alternate_get_a_proxy():
+    for i in range(1,20):
+        path = 'proxy'+str(i)+'.json'
+        with open(path,'r')as f:
+            dict_list = json.load(f)
+        if len(dict_list) == 0:
+            continue
+        else:
+            IP_info = dict_list[0]
+            dict_list = dict_list[1:]
+            with open(path,'w') as f:
+                json.dump(dict_list,f)
+            return IP_info
+    return None
+
+
 def alternate_process():
     ap = Proxy_processing(type='alternate',from_db=None,to_db=etc.alternate_db)
     while 1:
         if ap.should_add_to_db():
+            time.sleep(1)
+            print('test alternate')
             for i in range(etc.alternate_llen):
                 try:
                     tf,IP_info=ap.get_a_proxy()
                     if tf:
+                        print('in alternate mode get a proxy',IP_info)
                         ap.push_or_discare(IP_info)
                 except Exception as e:
                     print(e)
@@ -98,3 +123,6 @@ def immediate_process():
                     continue
         else:
             time.sleep(etc.immediate_sleep_time)
+# a = Proxy_processing('alternate',None,etc.immediate_db)
+# print(a.get_a_proxy())
+alternate_process()

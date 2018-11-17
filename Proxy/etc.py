@@ -1,5 +1,5 @@
 
-redis_host = '192.168.0.201'
+redis_host = '127.0.0.1'
 redis_db = 15
 redis_psw = 'redisredis'
 redis_port = 6379
@@ -18,3 +18,8 @@ immediate_mlen = 20
 immediate_llen = 200
 alternate_sleep_time = 300
 immediate_sleep_time = 300
+
+immediate_db = 0
+alternate_db = 1
+
+info_list = ['IP','port','anonymity','ptype','locate','resspeed']
