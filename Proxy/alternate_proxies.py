@@ -58,9 +58,10 @@ class Proxy_processing(object):
     获得一个IP，在检测可用性后如果可用加入to_db中，不可用raise一个错误出来
     '''
     def push_or_discare(self,IP_info):
-        intf,last_c_time=proxy_io.ProxiesIO.check_proxy()
-        if intf and int(time.time()) - last_c_time >=self.effective_time or not intf:#在队列中但是超过有效时间
-            fn,last_c_time=verify_proxy_validity.verify_proxy()
+        intf,last_c_time=self.to_redis.check_proxy(IP_info)
+        print('intf',intf,'lastctime',last_c_time)
+        if (intf and int(time.time()) - last_c_time >=self.effective_time) or not intf:#在队列中但是超过有效时间
+            fn,last_c_time=verify_proxy_validity.verify_proxy(IP_info)
             if fn == True:
                 IP_info['last_c_time'] = last_c_time
                 self.to_redis.insert_proxy(IP_info)
@@ -76,7 +77,7 @@ class Proxy_processing(object):
         return self.to_redis.check_len_db() - self.mlen < 0
 
 def alternate_get_a_proxy():
-    for i in range(1,20):
+    for i in range(20,25):
         path = 'proxy'+str(i)+'.json'
         with open(path,'r')as f:
             dict_list = json.load(f)
@@ -87,6 +88,7 @@ def alternate_get_a_proxy():
             dict_list = dict_list[1:]
             with open(path,'w') as f:
                 json.dump(dict_list,f)
+            print('alternate_get_a_proxy',IP_info)
             return IP_info
     return None
 
@@ -95,7 +97,7 @@ def alternate_process():
     ap = Proxy_processing(type='alternate',from_db=None,to_db=etc.alternate_db)
     while 1:
         if ap.should_add_to_db():
-            time.sleep(1)
+
             print('test alternate')
             for i in range(etc.alternate_llen):
                 try:
@@ -103,9 +105,15 @@ def alternate_process():
                     if tf:
                         print('in alternate mode get a proxy',IP_info)
                         ap.push_or_discare(IP_info)
+                        print('push, or discare')
                 except Exception as e:
                     print(e)
+                    print ('*******************')
+                    time.sleep(10)
                     continue
+                else:
+                    time.sleep(10)
+
         else:
             time.sleep(etc.alternate_sleep_time)
 

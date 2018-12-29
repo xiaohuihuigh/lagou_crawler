@@ -1,10 +1,11 @@
 
 redis_host = '127.0.0.1'
-redis_db = 15
+redis_db = 0
 redis_psw = 'redisredis'
 redis_port = 6379
-verified_url = "www.baidu.com"
-
+# verified_url = "http://www.baidu.com"
+verified_url = "http://www.baidu.com"
+test_url = 'https://blog.csdn.net/ZTCooper/article/details/80220063'
 # 数据库中代理的有效时间
 alternate_effective_time = 60*60*24
 immediate_effective_time = 300

@@ -35,10 +35,14 @@ class ProxiesIO(redis.Redis):
     '''
     def check_proxy(self,IP_info):
         IPkey = self.get_IPkey(IP_info)
+        print(IP_info)
+        print('get an IPkey',IPkey)
         if self.exists(IPkey):
             IP_info = self.get(IPkey)
             IP_info = json.loads(IP_info)
-        return True,IP_info['last_c_time'] or False,None
+            return True,IP_info['last_c_time']
+        else:
+            return False,None
     '''
     插入数据成功返回Ture，没有成功插入返回False，暂时没有影响
     '''

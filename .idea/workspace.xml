@@ -1,12 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f45c6f2b-747f-4f1d-b89d-909d6b0608f0" name="Default Changelist" comment="" />
+    <list default="true" id="f45c6f2b-747f-4f1d-b89d-909d6b0608f0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/level1spider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/level1spider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/alternate_proxies.py" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/alternate_proxies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/crawlIP.py" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/crawlIP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/etc.py" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/etc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy1.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy10.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy11.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy11.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy12.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy12.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy13.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy14.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy14.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy15.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy15.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy16.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy16.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy17.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy17.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy18.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy18.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy19.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy19.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy3.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy4.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy5.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy6.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy7.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy8.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy9.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy_io.py" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy_io.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/text.py" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/verify_proxy_validity.py" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/verify_proxy_validity.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/lagou_crawler$crawlIP.coverage" NAME="crawlIP Coverage Results" MODIFIED="1542462999599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Proxy" />
+    <SUITE FILE_PATH="coverage/lagou_crawler$test_proxy.coverage" NAME="test_proxy Coverage Results" MODIFIED="1542525559421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Proxy" />
+    <SUITE FILE_PATH="coverage/lagou_crawler$text.coverage" NAME="text Coverage Results" MODIFIED="1542700598453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Proxy" />
+    <SUITE FILE_PATH="coverage/lagou_crawler$redisoi.coverage" NAME="redisoi Coverage Results" MODIFIED="1542458758297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Proxy" />
+    <SUITE FILE_PATH="coverage/lagou_crawler$alternate_proxies.coverage" NAME="alternate_proxies Coverage Results" MODIFIED="1542462096241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Proxy" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-175356868">
@@ -44,41 +79,128 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1656515430">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="7" />
+          <entry key="json" value="29" />
+          <entry key="py" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="7" />
+          <entry key="JSON" value="29" />
+          <entry key="Python" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="19" />
+          <entry key="py" value="6095" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="Python" value="6095" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Proxy/test_proxy.py">
+        <entry file="file://$PROJECT_DIR$/Proxy/test115.28.40.85.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1500">
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            <state>
               <folding>
-                <element signature="e#13#28#0" expanded="true" />
-                <marker date="1541745753686" expanded="true" signature="335:622" ph="..." />
-                <marker date="1541745753686" expanded="true" signature="854:859" ph="..." />
+                <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Proxy/crawlIP.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="20" column="85" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="85" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-                <marker date="1541745346175" expanded="true" signature="214:248" ph="..." />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Proxy/test49.81.125.43.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Proxy/test110.167.30.50.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Proxy/redisoi.py">
+        <entry file="file://$PROJECT_DIR$/Proxy/test115.218.215.192.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state>
+              <folding>
+                <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Proxy/test118.24.156.214.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redisconnector.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="e#15#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/lib/python3/dist-packages/bs4/dammit.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="836">
+              <caret line="321" column="19" selection-start-line="321" selection-start-column="19" selection-end-line="321" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Proxy/proxy_io.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1276">
+              <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+                <marker date="1542461492824" expanded="true" signature="406:710" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Proxy/text.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -89,17 +211,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Proxy/etc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lagou_detail_content.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="493" column="32" lean-forward="true" selection-start-line="493" selection-start-column="32" selection-end-line="493" selection-end-column="32" />
+            <state relative-caret-position="132">
+              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -123,6 +236,12 @@
       <find>Java开发工程师</find>
       <find>Redis</find>
       <find>print</find>
+      <find>redis</find>
+      <find>verify_proxy_validity</find>
+      <find>redis_io</find>
+      <find>to_db</find>
+      <find>the proxy is error</find>
+      <find>from_db</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -133,18 +252,27 @@
       <list>
         <option value="$PROJECT_DIR$/Uniqueness.py" />
         <option value="$PROJECT_DIR$/Proxy/test.html" />
-        <option value="$PROJECT_DIR$/Proxy/text.py" />
-        <option value="$PROJECT_DIR$/Proxy/crawlIP.py" />
         <option value="$PROJECT_DIR$/Proxy/test_proxy.py" />
-        <option value="$PROJECT_DIR$/Proxy/etc.py" />
         <option value="$PROJECT_DIR$/Proxy/redisoi.py" />
+        <option value="$PROJECT_DIR$/Proxy/proxy_io.py" />
+        <option value="$PROJECT_DIR$/Proxy/alternate_proxies.py" />
+        <option value="$PROJECT_DIR$/Proxy/crawlIP.py" />
+        <option value="$PROJECT_DIR$/Proxy/verify_proxy_validity.py" />
+        <option value="$PROJECT_DIR$/Proxy/etc.py" />
+        <option value="$PROJECT_DIR$/Proxy/text.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="196" />
+    <option name="y" value="34" />
+    <option name="width" value="1663" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -155,28 +283,30 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Course" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="level1spider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="level1spider" type="462c0819:PsiDirectoryNode" />
+              <item name="lagou_crawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lagou_crawler" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="level1spider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="level1spider" type="462c0819:PsiDirectoryNode" />
+              <item name="lagou_crawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lagou_crawler" type="462c0819:PsiDirectoryNode" />
               <item name="Proxy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Proxy/crawlIP.py" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -191,7 +321,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.redisoi">
+  <component name="RunManager" selected="Python.text">
+    <configuration name="alternate_proxies" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="level1spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Proxy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Proxy/alternate_proxies.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="crawlIP" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="level1spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -204,28 +356,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Proxy/crawlIP.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="etc" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="level1spider" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Proxy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Proxy/etc.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -246,7 +378,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Proxy/redisoi.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Proxy/proxy_io.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -267,7 +400,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Proxy/test_proxy.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Proxy/verify_proxy_validity.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -288,6 +422,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Proxy/text.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -298,43 +433,64 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.crawlIP" />
       <item itemvalue="Python.test_proxy" />
-      <item itemvalue="Python.text" />
-      <item itemvalue="Python.etc" />
       <item itemvalue="Python.redisoi" />
+      <item itemvalue="Python.alternate_proxies" />
+      <item itemvalue="Python.text" />
+      <item itemvalue="Python.crawlIP" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.redisoi" />
-        <item itemvalue="Python.etc" />
-        <item itemvalue="Python.crawlIP" />
-        <item itemvalue="Python.test_proxy" />
         <item itemvalue="Python.text" />
+        <item itemvalue="Python.test_proxy" />
+        <item itemvalue="Python.crawlIP" />
+        <item itemvalue="Python.alternate_proxies" />
+        <item itemvalue="Python.redisoi" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f45c6f2b-747f-4f1d-b89d-909d6b0608f0" name="Default Changelist" comment="" />
+      <created>1541848978767</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541848978767</updated>
+    </task>
+    <servers />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="196" y="34" width="1663" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1921875" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3146206" />
       <window_info id="Structure" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Python Console" order="0" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="0" weight="0.32957748" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.32957748" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.35911018" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.4988086" weight="0.32112676" />
+      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.49960285" weight="0.27323943" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32957748" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50119144" side_tool="true" weight="0.31690142" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -345,36 +501,10 @@
         <state relative-caret-position="-180" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/proxy2.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/proxy3.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/proxy5.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/proxy1.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Uniqueness.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/text.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -385,13 +515,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/test210.72.14.142.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Proxy/test218.58.193.37.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/test110.167.30.50.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Proxy/test124.225.144.224.html">
@@ -419,43 +543,10 @@
     <entry file="file://$PROJECT_DIR$/Proxy/test221.214.167.3.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/test49.81.125.43.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/test_proxy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="e#13#28#0" expanded="true" />
-            <marker date="1541745753686" expanded="true" signature="335:622" ph="..." />
-            <marker date="1541745753686" expanded="true" signature="854:859" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/crawlIP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="20" column="85" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="85" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1541745346175" expanded="true" signature="214:248" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/multiprocessing_lagou.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1686">
           <caret line="258" column="30" selection-start-line="258" selection-start-column="30" selection-end-line="258" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redisconnector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -466,29 +557,179 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/proxy4.json">
+    <entry file="file://$PROJECT_DIR$/Proxy/test210.72.14.142.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/lagou_detail_content.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="493" column="32" lean-forward="true" selection-start-line="493" selection-start-column="32" selection-end-line="493" selection-end-column="32" />
+        <state relative-caret-position="538">
+          <caret line="493" column="32" selection-start-line="493" selection-start-column="32" selection-end-line="493" selection-end-column="32" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/test220.176.66.5.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/proxy7.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/proxy9.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/proxy12.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/proxy14.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/proxy16.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/proxy18.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/proxy15.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/proxy4.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/proxy3.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/proxy6.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/proxy5.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/proxy2.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/proxy19.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/verify_proxy_validity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="101" column="42" selection-start-line="101" selection-start-column="42" selection-end-line="101" selection-end-column="42" />
+          <folding>
+            <element signature="e#13#28#0" expanded="true" />
+            <marker date="1542463227437" expanded="true" signature="744:769" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/proxy1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2881" selection-start-column="2881" selection-end-column="2881" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/proxy10.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/proxy43.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/alternate_proxies.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2010">
+          <caret line="134" column="24" selection-start-line="134" selection-start-column="24" selection-end-line="134" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1542461728181" expanded="true" signature="363:1326" ph="..." />
+            <marker date="1542461728181" expanded="true" signature="1352:1361" ph="..." />
+            <marker date="1542461728181" expanded="true" signature="2687:3136" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/crawlIP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/test115.28.40.85.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/test49.81.125.43.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/test110.167.30.50.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Proxy/etc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        <state relative-caret-position="132">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/redisoi.py">
+    <entry file="file://$PROJECT_DIR$/Proxy/text.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="374">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/proxy_io.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1276">
+          <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <marker date="1542461492824" expanded="true" signature="406:710" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3/dist-packages/bs4/dammit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="321" column="19" selection-start-line="321" selection-start-column="19" selection-end-line="321" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redisconnector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#15#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/test118.24.156.214.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/test115.218.215.192.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

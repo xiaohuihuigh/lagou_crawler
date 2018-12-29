@@ -23,7 +23,7 @@ def get_proxys_info(soup):
             proxy_info_dict[info_list[i]] = proxy_info_list[i].text
         proxys_info_list.append(proxy_info_dict)
     return proxys_info_list
-for i in range(1,6):
+for i in range(1,20):
     time.sleep(3)
     soup = get_html_to_soup(inha_url.format(i))
     proxys_list = get_proxys_info(soup)
@@ -33,3 +33,5 @@ for i in range(1,6):
     with open('proxy{}.json'.format(i),'w')as f:
         # json.dumps(proxys_list)
         json.dump(proxys_list,f)
+        print(proxys_list)
+        print('proxy{}.json'.format(i))
