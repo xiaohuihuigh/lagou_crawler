@@ -1,27 +1,31 @@
-import redisconnector
-import etc
-import redis
-import json
-import time
+# import redisconnector
+# import etc
+# import redis
+# import json
+# import time
+#
 
+import alternate_proxies
 
-# redis_h.lpush()
-class ProxiesIO(redis.Redis):
-    def __init__(self, host=etc.redis_host, port=etc.redis_port, password=etc.redis_psw, db=etc.redis_db):
-        super(ProxiesIO, self).__init__(host=host, port=port, password=password, db=db)
-        # 可以在初始化的时候创建如果没有list的话？？？
-        # 具体看怎么存的。。。
-
-r = ProxiesIO()
-i = 12306
-while 1:
-    i+=1
-    # time.sleep(1)
-    r.set(i,i ** i)
-    print (i)
-    r.expire(i,300)
-    if not r.exists('1'):
-        break
+alternate_proxies.immediate_process()
+#
+# # redis_h.lpush()
+# class ProxiesIO(redis.Redis):
+#     def __init__(self, host=etc.redis_host, port=etc.redis_port, password=etc.redis_psw, db=etc.redis_db):
+#         super(ProxiesIO, self).__init__(host=host, port=port, password=password, db=db)
+#         # 可以在初始化的时候创建如果没有list的话？？？
+#         # 具体看怎么存的。。。
+#
+# r = ProxiesIO()
+# i = 12306
+# while 1:
+#     i+=1
+#     # time.sleep(1)
+#     r.set(i,i ** i)
+#     print (i)
+#     r.expire(i,300)
+#     if not r.exists('1'):
+#         break
     # @staticmethod
     # def get_IPkey(IP_info):
     #     IP = IP_info['IP']
@@ -104,4 +108,11 @@ while 1:
     #
     # @staticmethod
     # def byte2str(b):
-    #     return b.decode('utf8') if isinstance(b, bytes) else b
+#     #     return b.decode('utf8') if isinstance(b, bytes) else b
+# import re
+#
+# with open('test.html','r')as f:
+#     sp = f.read()
+# print(re.findall(r'<span class="c-gap-right">(.*?)</span>',sp))
+# import time
+# print(int(time.time()))

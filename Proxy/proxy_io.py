@@ -3,6 +3,7 @@ import etc
 import redis
 import json
 import time
+import re
 # redis_h.lpush()
 class ProxiesIO(redis.Redis):
     def __init__(self,host=etc.redis_host,port = etc.redis_port,password=etc.redis_psw,db=etc.redis_db):
@@ -12,16 +13,11 @@ class ProxiesIO(redis.Redis):
     @staticmethod
     def get_IPkey(IP_info):
         IP = IP_info['IP']
-        port = int(IP_info['port'])
+        port = IP_info['port']
         ip_list = IP.split('.')
-        key = 0
-        for i in ip_list:
-            key = key*1000+int(i)
-        _port = port
-        while _port:
-            key *= 10
-            _port //= 10
-        key += port
+        proxy = IP+port
+        key = "".join(re.findall(r'\d',IP+port))
+        print('key',key)
         return key
     '''
     暂时还不知道是干嘛的。。。
@@ -64,9 +60,12 @@ class ProxiesIO(redis.Redis):
     def pop_proxy(self):
         IPkey = self.randomkey()
         IP_info = self.get(IPkey)
+
         self.delete(IPkey)
-        IP_info = json.loads(IP_info)
-        return IP_info
+        if IP_info:
+            IP_info = json.loads(IP_info.decode('utf-8'))
+            return IP_info
+        return None
     # '''
     # 从数据库中拿到n个可用信息
     # 返回一个列表，列表中的每一个元素为一个json格式的IP信息

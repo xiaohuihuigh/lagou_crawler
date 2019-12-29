@@ -2,33 +2,143 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f45c6f2b-747f-4f1d-b89d-909d6b0608f0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/level1spider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/level1spider.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proxy/alternate_proxies.py" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/alternate_proxies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/crawlIP.py" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/crawlIP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/crawlIP.py" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/crawl_kuaidaili_proxies.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proxy/etc.py" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/etc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/proxy1.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/proxy10.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy10.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/proxy11.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy11.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/proxy12.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy12.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/proxy13.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy13.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/proxy14.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy14.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/proxy15.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy15.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/proxy16.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy16.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/proxy17.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy17.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/proxy18.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy18.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/proxy19.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy19.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/proxy2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/proxy3.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy3.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/proxy4.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy4.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/proxy5.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy5.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/proxy6.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy6.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/proxy7.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy7.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/proxy8.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy8.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/proxy9.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy10.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy11.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy12.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy13.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy14.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy15.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy16.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy17.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy18.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy19.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy20.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy21.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy22.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy23.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy24.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy25.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy26.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy27.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy28.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy29.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy30.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy31.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy32.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy33.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy34.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy35.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy36.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy37.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy38.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy39.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy40.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy41.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy42.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy43.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy44.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy45.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy46.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy47.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy48.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy49.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy50.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy51.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy52.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy53.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy54.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy55.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy56.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy57.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy58.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy59.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy60.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy61.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy62.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy63.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy64.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy65.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy66.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy67.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy68.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy69.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy70.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy71.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy72.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy73.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy74.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy75.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy76.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy77.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy78.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy79.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy80.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy81.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy82.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy83.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy84.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy85.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy86.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy87.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy88.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy89.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy90.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy91.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy92.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy93.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy94.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy95.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy96.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy97.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy98.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/proxy99.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Proxy/proxy_io.py" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/proxy_io.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/test110.167.30.50.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/test114.235.22.53.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/test114.235.23.212.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/test115.218.215.192.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/test115.218.218.234.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/test115.218.219.244.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/test115.223.237.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/test115.28.40.85.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/test117.191.11.113.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/test118.24.156.214.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/test121.232.194.233.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/test124.225.144.224.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/test180.118.247.57.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/test183.129.207.84.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/test183.154.213.236.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/test202.199.159.130.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/test210.72.14.142.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/test218.58.193.37.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/test219.134.90.116.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/test219.145.170.23.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/test220.176.66.5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/test221.214.167.3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/test222.92.85.37.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/test49.81.125.43.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/test58.254.220.116.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/test61.157.206.174.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/test61.157.206.182.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/test61.164.39.69.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/test61.183.176.122.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Proxy/text.py" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/text.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proxy/verify_proxy_validity.py" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/verify_proxy_validity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tags" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,11 +147,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/lagou_crawler$crawlIP.coverage" NAME="crawlIP Coverage Results" MODIFIED="1542462999599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Proxy" />
-    <SUITE FILE_PATH="coverage/lagou_crawler$test_proxy.coverage" NAME="test_proxy Coverage Results" MODIFIED="1542525559421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Proxy" />
-    <SUITE FILE_PATH="coverage/lagou_crawler$text.coverage" NAME="text Coverage Results" MODIFIED="1542700598453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Proxy" />
+    <SUITE FILE_PATH="coverage/lagou_crawler$crawlIP.coverage" NAME="crawlIP Coverage Results" MODIFIED="1546062534311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Proxy" />
+    <SUITE FILE_PATH="coverage/lagou_crawler$test_proxy.coverage" NAME="test_proxy Coverage Results" MODIFIED="1546062558052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Proxy" />
+    <SUITE FILE_PATH="coverage/lagou_crawler$text.coverage" NAME="text Coverage Results" MODIFIED="1546063240090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Proxy" />
     <SUITE FILE_PATH="coverage/lagou_crawler$redisoi.coverage" NAME="redisoi Coverage Results" MODIFIED="1542458758297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Proxy" />
-    <SUITE FILE_PATH="coverage/lagou_crawler$alternate_proxies.coverage" NAME="alternate_proxies Coverage Results" MODIFIED="1542462096241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Proxy" />
+    <SUITE FILE_PATH="coverage/lagou_crawler$alternate_proxies.coverage" NAME="alternate_proxies Coverage Results" MODIFIED="1546063299176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Proxy" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-175356868">
@@ -82,37 +192,44 @@
     <session id="1656515430">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="7" />
-          <entry key="json" value="29" />
-          <entry key="py" value="16" />
+          <entry key="gitignore" value="1" />
+          <entry key="html" value="13" />
+          <entry key="json" value="30" />
+          <entry key="log" value="1" />
+          <entry key="py" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="7" />
-          <entry key="JSON" value="29" />
-          <entry key="Python" value="16" />
+          <entry key="HTML" value="13" />
+          <entry key="JSON" value="30" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="19" />
-          <entry key="py" value="6095" />
+          <entry key="dummy" value="42" />
+          <entry key="html" value="1" />
+          <entry key="py" value="7631" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="19" />
-          <entry key="Python" value="6095" />
+          <entry key="HTML" value="1" />
+          <entry key="PLAIN_TEXT" value="42" />
+          <entry key="Python" value="7631" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
     </session>
@@ -120,44 +237,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Proxy/test115.28.40.85.html">
+        <entry file="file://$PROJECT_DIR$/Proxy/proxy_io.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="66">
+              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Proxy/test49.81.125.43.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Proxy/test110.167.30.50.html">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Proxy/test115.218.215.192.html">
+        <entry file="file://$PROJECT_DIR$/Uniqueness.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Proxy/test118.24.156.214.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="110">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -165,7 +266,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/redisconnector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
+            <state relative-caret-position="594">
               <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="e#15#27#0" expanded="true" />
@@ -175,35 +276,51 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/lib/python3/dist-packages/bs4/dammit.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="321" column="19" selection-start-line="321" selection-start-column="19" selection-end-line="321" selection-end-column="19" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Proxy/proxy_io.py">
+        <entry file="file://$PROJECT_DIR$/Proxy/verify_proxy_validity.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1276">
-              <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+            <state relative-caret-position="352">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
-                <marker date="1542461492824" expanded="true" signature="406:710" ph="..." />
+                <element signature="e#13#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Proxy/text.py">
+        <entry file="file://$PROJECT_DIR$/Proxy/crawl_kuaidaili_proxies.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            <state relative-caret-position="550">
+              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Proxy/alternate_proxies.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="81" column="13" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/multiprocessing_lagou.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3066">
+              <caret line="258" column="30" selection-start-line="258" selection-start-column="30" selection-end-line="258" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -211,8 +328,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Proxy/etc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+            <state relative-caret-position="418">
+              <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -222,8 +339,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -242,7 +359,16 @@
       <find>to_db</find>
       <find>the proxy is error</find>
       <find>from_db</find>
+      <find>span class=&quot;c-gap-right</find>
+      <find>the proxy could be use</find>
+      <find>proxys</find>
+      <find>本机IP</find>
+      <find>本机IP:</find>
+      <find>immediate_process</find>
     </findStrings>
+    <replaceStrings>
+      <replace>proxies</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -251,14 +377,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Uniqueness.py" />
-        <option value="$PROJECT_DIR$/Proxy/test.html" />
         <option value="$PROJECT_DIR$/Proxy/test_proxy.py" />
         <option value="$PROJECT_DIR$/Proxy/redisoi.py" />
-        <option value="$PROJECT_DIR$/Proxy/proxy_io.py" />
-        <option value="$PROJECT_DIR$/Proxy/alternate_proxies.py" />
         <option value="$PROJECT_DIR$/Proxy/crawlIP.py" />
+        <option value="$PROJECT_DIR$/Proxy/test.html" />
+        <option value="$PROJECT_DIR$/Proxy/proxy_io.py" />
+        <option value="$PROJECT_DIR$/Proxy/crawl_kuaidaili_proxies.py" />
         <option value="$PROJECT_DIR$/Proxy/verify_proxy_validity.py" />
         <option value="$PROJECT_DIR$/Proxy/etc.py" />
+        <option value="$PROJECT_DIR$/Proxy/alternate_proxies.py" />
         <option value="$PROJECT_DIR$/Proxy/text.py" />
       </list>
     </option>
@@ -269,11 +396,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="196" />
-    <option name="y" value="34" />
+    <option name="y" value="6" />
     <option name="width" value="1663" />
-    <option name="height" value="1056" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -306,7 +433,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Proxy" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -321,7 +448,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.text">
+  <component name="RunManager" selected="Python.alternate_proxies">
     <configuration name="alternate_proxies" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="level1spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -357,7 +484,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Proxy/crawlIP.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Proxy/crawl_kuaidaili_proxies.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -441,10 +568,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.alternate_proxies" />
         <item itemvalue="Python.text" />
         <item itemvalue="Python.test_proxy" />
         <item itemvalue="Python.crawlIP" />
-        <item itemvalue="Python.alternate_proxies" />
         <item itemvalue="Python.redisoi" />
       </list>
     </recent_temporary>
@@ -463,17 +590,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="196" y="34" width="1663" height="1056" extended-state="0" />
-    <editor active="true" />
+    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3146206" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.287369" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="0" weight="0.32957748" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.32957748" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.4988086" weight="0.32112676" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.4988086" weight="0.36316338" />
       <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.49960285" weight="0.27323943" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -496,70 +622,15 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lagou.log.5">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Uniqueness.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/test218.58.193.37.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/test124.225.144.224.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/test61.164.39.69.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/test117.191.11.113.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/test61.183.176.122.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/test58.254.220.116.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64620">
-          <caret line="2154" column="1160" selection-start-line="2154" selection-start-column="1160" selection-end-line="2154" selection-end-column="1160" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/test219.145.170.23.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/test221.214.167.3.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multiprocessing_lagou.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1686">
-          <caret line="258" column="30" selection-start-line="258" selection-start-column="30" selection-end-line="258" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/test222.92.85.37.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="1044" column="207" selection-start-line="1044" selection-start-column="198" selection-end-line="1044" selection-end-column="207" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/test210.72.14.142.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/test124.225.144.224.html" />
+    <entry file="file://$PROJECT_DIR$/Proxy/test61.164.39.69.html" />
+    <entry file="file://$PROJECT_DIR$/Proxy/test117.191.11.113.html" />
+    <entry file="file://$PROJECT_DIR$/Proxy/test61.183.176.122.html" />
+    <entry file="file://$PROJECT_DIR$/Proxy/test58.254.220.116.html" />
+    <entry file="file://$PROJECT_DIR$/Proxy/test219.145.170.23.html" />
+    <entry file="file://$PROJECT_DIR$/Proxy/test221.214.167.3.html" />
+    <entry file="file://$PROJECT_DIR$/Proxy/test222.92.85.37.html" />
+    <entry file="file://$PROJECT_DIR$/Proxy/test210.72.14.142.html" />
     <entry file="file://$PROJECT_DIR$/lagou_detail_content.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="538">
@@ -567,148 +638,579 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/test220.176.66.5.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/proxy7.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/proxy9.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/proxy12.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/proxy14.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/proxy16.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/proxy18.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/proxy15.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/proxy4.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/proxy3.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/proxy6.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/proxy5.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/proxy2.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/proxy19.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/verify_proxy_validity.py">
+    <entry file="file://$PROJECT_DIR$/Proxy/test220.176.66.5.html" />
+    <entry file="file://$PROJECT_DIR$/Proxy/proxy7.json" />
+    <entry file="file://$PROJECT_DIR$/Proxy/proxy9.json" />
+    <entry file="file://$PROJECT_DIR$/Proxy/proxy12.json" />
+    <entry file="file://$PROJECT_DIR$/Proxy/proxy14.json" />
+    <entry file="file://$PROJECT_DIR$/Proxy/proxy16.json" />
+    <entry file="file://$PROJECT_DIR$/Proxy/proxy18.json" />
+    <entry file="file://$PROJECT_DIR$/Proxy/proxy15.json" />
+    <entry file="file://$PROJECT_DIR$/Proxy/proxy4.json" />
+    <entry file="file://$PROJECT_DIR$/Proxy/proxy3.json" />
+    <entry file="file://$PROJECT_DIR$/Proxy/proxy6.json" />
+    <entry file="file://$PROJECT_DIR$/Proxy/proxy5.json" />
+    <entry file="file://$PROJECT_DIR$/Proxy/proxy2.json" />
+    <entry file="file://$PROJECT_DIR$/Proxy/proxy19.json" />
+    <entry file="file://$PROJECT_DIR$/Proxy/proxy1.json" />
+    <entry file="file://$PROJECT_DIR$/Proxy/proxy10.json" />
+    <entry file="file://$PROJECT_DIR$/Proxy/proxy43.json" />
+    <entry file="file://$PROJECT_DIR$/Proxy/test115.28.40.85.html" />
+    <entry file="file://$PROJECT_DIR$/Proxy/test49.81.125.43.html" />
+    <entry file="file://$PROJECT_DIR$/Proxy/test110.167.30.50.html" />
+    <entry file="file://$PROJECT_DIR$/Proxy/test118.24.156.214.html" />
+    <entry file="file:///usr/lib/python3/dist-packages/bs4/dammit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="101" column="42" selection-start-line="101" selection-start-column="42" selection-end-line="101" selection-end-column="42" />
+        <state relative-caret-position="6952">
+          <caret line="321" column="19" selection-start-line="321" selection-start-column="19" selection-end-line="321" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/test115.218.215.192.html" />
+    <entry file="file://$PROJECT_DIR$/Proxy/test219.134.90.116.html" />
+    <entry file="file://$PROJECT_DIR$/Proxy/test183.154.213.236.html" />
+    <entry file="file://$PROJECT_DIR$/Proxy/proxy52.json" />
+    <entry file="file://$PROJECT_DIR$/Proxy/test180.118.247.57.html" />
+    <entry file="file://$PROJECT_DIR$/Proxy/test115.223.237.1.html" />
+    <entry file="file://$PROJECT_DIR$/Proxy/text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69916">
+          <caret line="3178" column="30" selection-start-line="3178" selection-start-column="30" selection-end-line="3178" selection-end-column="30" />
           <folding>
-            <element signature="e#13#28#0" expanded="true" />
-            <marker date="1542463227437" expanded="true" signature="744:769" ph="..." />
+            <element signature="e#52721#52868#2" expanded="true" />
+            <element signature="e#67776#67795#1" expanded="true" />
+            <element signature="e#72209#72496#1" expanded="true" />
+            <element signature="e#74633#74652#1" expanded="true" />
+            <element signature="e#75216#75507#2" expanded="true" />
+            <element signature="e#122722#122741#1" expanded="true" />
+            <element signature="e#127155#127442#1" expanded="true" />
+            <element signature="e#129579#129598#1" expanded="true" />
+            <element signature="e#130162#130453#2" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#span#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#span#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#8;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#192648#192652#0" expanded="true" />
+            <element signature="e#192694#192698#0" expanded="true" />
+            <element signature="e#192708#192712#0" expanded="true" />
+            <element signature="e#192739#192743#0" expanded="true" />
+            <element signature="e#192753#192757#0" expanded="true" />
+            <element signature="e#192889#192893#0" expanded="true" />
+            <element signature="e#192943#192947#0" expanded="true" />
+            <element signature="e#192981#192985#0" expanded="true" />
+            <element signature="e#192998#193002#0" expanded="true" />
+            <element signature="e#193068#193073#0" expanded="true" />
+            <element signature="e#193078#193083#0" expanded="true" />
+            <element signature="e#193091#193096#0" expanded="true" />
+            <element signature="e#193105#193110#0" expanded="true" />
+            <element signature="e#193147#193152#0" expanded="true" />
+            <element signature="e#193157#193162#0" expanded="true" />
+            <element signature="e#193173#193178#0" expanded="true" />
+            <element signature="e#193217#193222#0" expanded="true" />
+            <element signature="e#193233#193238#0" expanded="true" />
+            <element signature="e#193276#193280#0" expanded="true" />
+            <element signature="e#193280#193284#0" expanded="true" />
+            <element signature="e#193346#193351#0" expanded="true" />
+            <element signature="e#193404#193408#0" expanded="true" />
+            <element signature="e#193408#193412#0" expanded="true" />
+            <element signature="e#193414#193418#0" expanded="true" />
+            <element signature="e#193431#193435#0" expanded="true" />
+            <element signature="e#193535#193540#0" expanded="true" />
+            <element signature="e#193545#193550#0" expanded="true" />
+            <element signature="e#193558#193563#0" expanded="true" />
+            <element signature="e#193572#193577#0" expanded="true" />
+            <element signature="e#193614#193619#0" expanded="true" />
+            <element signature="e#193624#193629#0" expanded="true" />
+            <element signature="e#193640#193645#0" expanded="true" />
+            <element signature="e#193684#193689#0" expanded="true" />
+            <element signature="e#193700#193705#0" expanded="true" />
+            <element signature="e#193743#193747#0" expanded="true" />
+            <element signature="e#193747#193751#0" expanded="true" />
+            <element signature="e#193753#193757#0" expanded="true" />
+            <element signature="e#193777#193781#0" expanded="true" />
+            <element signature="e#193785#193789#0" expanded="true" />
+            <element signature="e#193798#193802#0" expanded="true" />
+            <element signature="e#193829#193833#0" expanded="true" />
+            <element signature="e#193833#193837#0" expanded="true" />
+            <element signature="e#193916#193921#0" expanded="true" />
+            <element signature="e#193926#193931#0" expanded="true" />
+            <element signature="e#193939#193944#0" expanded="true" />
+            <element signature="e#193953#193958#0" expanded="true" />
+            <element signature="e#193995#194000#0" expanded="true" />
+            <element signature="e#194005#194010#0" expanded="true" />
+            <element signature="e#194021#194026#0" expanded="true" />
+            <element signature="e#194065#194070#0" expanded="true" />
+            <element signature="e#194081#194086#0" expanded="true" />
+            <element signature="e#194124#194128#0" expanded="true" />
+            <element signature="e#194132#194136#0" expanded="true" />
+            <element signature="e#194138#194142#0" expanded="true" />
+            <element signature="e#194142#194146#0" expanded="true" />
+            <element signature="e#194150#194154#0" expanded="true" />
+            <element signature="e#194191#194195#0" expanded="true" />
+            <element signature="e#194199#194203#0" expanded="true" />
+            <element signature="e#194229#194233#0" expanded="true" />
+            <element signature="e#194367#194371#0" expanded="true" />
+            <element signature="e#194421#194425#0" expanded="true" />
+            <element signature="e#194459#194463#0" expanded="true" />
+            <element signature="e#194476#194480#0" expanded="true" />
+            <element signature="e#194548#194553#0" expanded="true" />
+            <element signature="e#194558#194563#0" expanded="true" />
+            <element signature="e#194571#194576#0" expanded="true" />
+            <element signature="e#194585#194590#0" expanded="true" />
+            <element signature="e#194627#194632#0" expanded="true" />
+            <element signature="e#194637#194642#0" expanded="true" />
+            <element signature="e#194653#194658#0" expanded="true" />
+            <element signature="e#194697#194702#0" expanded="true" />
+            <element signature="e#194713#194718#0" expanded="true" />
+            <element signature="e#194756#194760#0" expanded="true" />
+            <element signature="e#194760#194764#0" expanded="true" />
+            <element signature="e#194826#194831#0" expanded="true" />
+            <element signature="e#194884#194888#0" expanded="true" />
+            <element signature="e#194888#194892#0" expanded="true" />
+            <element signature="e#194894#194898#0" expanded="true" />
+            <element signature="e#194911#194915#0" expanded="true" />
+            <element signature="e#195017#195022#0" expanded="true" />
+            <element signature="e#195027#195032#0" expanded="true" />
+            <element signature="e#195040#195045#0" expanded="true" />
+            <element signature="e#195054#195059#0" expanded="true" />
+            <element signature="e#195096#195101#0" expanded="true" />
+            <element signature="e#195106#195111#0" expanded="true" />
+            <element signature="e#195122#195127#0" expanded="true" />
+            <element signature="e#195166#195171#0" expanded="true" />
+            <element signature="e#195182#195187#0" expanded="true" />
+            <element signature="e#195225#195229#0" expanded="true" />
+            <element signature="e#195229#195233#0" expanded="true" />
+            <element signature="e#195235#195239#0" expanded="true" />
+            <element signature="e#195259#195263#0" expanded="true" />
+            <element signature="e#195267#195271#0" expanded="true" />
+            <element signature="e#195280#195284#0" expanded="true" />
+            <element signature="e#195311#195315#0" expanded="true" />
+            <element signature="e#195315#195319#0" expanded="true" />
+            <element signature="e#195402#195407#0" expanded="true" />
+            <element signature="e#195412#195417#0" expanded="true" />
+            <element signature="e#195425#195430#0" expanded="true" />
+            <element signature="e#195439#195444#0" expanded="true" />
+            <element signature="e#195481#195486#0" expanded="true" />
+            <element signature="e#195491#195496#0" expanded="true" />
+            <element signature="e#195507#195512#0" expanded="true" />
+            <element signature="e#195551#195556#0" expanded="true" />
+            <element signature="e#195567#195572#0" expanded="true" />
+            <element signature="e#195610#195614#0" expanded="true" />
+            <element signature="e#195620#195624#0" expanded="true" />
+            <element signature="e#195626#195630#0" expanded="true" />
+            <element signature="e#195630#195634#0" expanded="true" />
+            <element signature="e#195638#195642#0" expanded="true" />
+            <element signature="e#195679#195683#0" expanded="true" />
+            <element signature="e#195687#195691#0" expanded="true" />
+            <element signature="e#195717#195721#0" expanded="true" />
+            <element signature="e#195869#195873#0" expanded="true" />
+            <element signature="e#195923#195927#0" expanded="true" />
+            <element signature="e#195961#195965#0" expanded="true" />
+            <element signature="e#195978#195982#0" expanded="true" />
+            <element signature="e#196018#196023#0" expanded="true" />
+            <element signature="e#196028#196033#0" expanded="true" />
+            <element signature="e#196041#196046#0" expanded="true" />
+            <element signature="e#196055#196060#0" expanded="true" />
+            <element signature="e#196097#196102#0" expanded="true" />
+            <element signature="e#196107#196112#0" expanded="true" />
+            <element signature="e#196123#196128#0" expanded="true" />
+            <element signature="e#196167#196172#0" expanded="true" />
+            <element signature="e#196183#196188#0" expanded="true" />
+            <element signature="e#196226#196230#0" expanded="true" />
+            <element signature="e#196230#196234#0" expanded="true" />
+            <element signature="e#196295#196300#0" expanded="true" />
+            <element signature="e#196353#196357#0" expanded="true" />
+            <element signature="e#196357#196361#0" expanded="true" />
+            <element signature="e#196363#196367#0" expanded="true" />
+            <element signature="e#196380#196384#0" expanded="true" />
+            <element signature="e#196454#196459#0" expanded="true" />
+            <element signature="e#196464#196469#0" expanded="true" />
+            <element signature="e#196477#196482#0" expanded="true" />
+            <element signature="e#196491#196496#0" expanded="true" />
+            <element signature="e#196533#196538#0" expanded="true" />
+            <element signature="e#196543#196548#0" expanded="true" />
+            <element signature="e#196559#196564#0" expanded="true" />
+            <element signature="e#196603#196608#0" expanded="true" />
+            <element signature="e#196619#196624#0" expanded="true" />
+            <element signature="e#196662#196666#0" expanded="true" />
+            <element signature="e#196666#196670#0" expanded="true" />
+            <element signature="e#196672#196676#0" expanded="true" />
+            <element signature="e#196696#196700#0" expanded="true" />
+            <element signature="e#196704#196708#0" expanded="true" />
+            <element signature="e#196717#196721#0" expanded="true" />
+            <element signature="e#196748#196752#0" expanded="true" />
+            <element signature="e#196752#196756#0" expanded="true" />
+            <element signature="e#196807#196812#0" expanded="true" />
+            <element signature="e#196817#196822#0" expanded="true" />
+            <element signature="e#196830#196835#0" expanded="true" />
+            <element signature="e#196844#196849#0" expanded="true" />
+            <element signature="e#196886#196891#0" expanded="true" />
+            <element signature="e#196896#196901#0" expanded="true" />
+            <element signature="e#196912#196917#0" expanded="true" />
+            <element signature="e#196956#196961#0" expanded="true" />
+            <element signature="e#196972#196977#0" expanded="true" />
+            <element signature="e#197015#197019#0" expanded="true" />
+            <element signature="e#197025#197029#0" expanded="true" />
+            <element signature="e#197031#197035#0" expanded="true" />
+            <element signature="e#197035#197039#0" expanded="true" />
+            <element signature="e#197043#197047#0" expanded="true" />
+            <element signature="e#197084#197088#0" expanded="true" />
+            <element signature="e#197092#197096#0" expanded="true" />
+            <element signature="e#197122#197126#0" expanded="true" />
+            <element signature="e#197300#197304#0" expanded="true" />
+            <element signature="e#197354#197358#0" expanded="true" />
+            <element signature="e#197392#197396#0" expanded="true" />
+            <element signature="e#197409#197413#0" expanded="true" />
+            <element signature="e#197463#197468#0" expanded="true" />
+            <element signature="e#197473#197478#0" expanded="true" />
+            <element signature="e#197486#197491#0" expanded="true" />
+            <element signature="e#197500#197505#0" expanded="true" />
+            <element signature="e#197542#197547#0" expanded="true" />
+            <element signature="e#197552#197557#0" expanded="true" />
+            <element signature="e#197568#197573#0" expanded="true" />
+            <element signature="e#197612#197617#0" expanded="true" />
+            <element signature="e#197628#197633#0" expanded="true" />
+            <element signature="e#197671#197675#0" expanded="true" />
+            <element signature="e#197675#197679#0" expanded="true" />
+            <element signature="e#197741#197746#0" expanded="true" />
+            <element signature="e#197799#197803#0" expanded="true" />
+            <element signature="e#197803#197807#0" expanded="true" />
+            <element signature="e#197809#197813#0" expanded="true" />
+            <element signature="e#197826#197830#0" expanded="true" />
+            <element signature="e#197914#197919#0" expanded="true" />
+            <element signature="e#197924#197929#0" expanded="true" />
+            <element signature="e#197937#197942#0" expanded="true" />
+            <element signature="e#197951#197956#0" expanded="true" />
+            <element signature="e#197993#197998#0" expanded="true" />
+            <element signature="e#198003#198008#0" expanded="true" />
+            <element signature="e#198019#198024#0" expanded="true" />
+            <element signature="e#198063#198068#0" expanded="true" />
+            <element signature="e#198079#198084#0" expanded="true" />
+            <element signature="e#198122#198126#0" expanded="true" />
+            <element signature="e#198126#198130#0" expanded="true" />
+            <element signature="e#198132#198136#0" expanded="true" />
+            <element signature="e#198156#198160#0" expanded="true" />
+            <element signature="e#198164#198168#0" expanded="true" />
+            <element signature="e#198177#198181#0" expanded="true" />
+            <element signature="e#198208#198212#0" expanded="true" />
+            <element signature="e#198212#198216#0" expanded="true" />
+            <element signature="e#198279#198284#0" expanded="true" />
+            <element signature="e#198289#198294#0" expanded="true" />
+            <element signature="e#198302#198307#0" expanded="true" />
+            <element signature="e#198316#198321#0" expanded="true" />
+            <element signature="e#198358#198363#0" expanded="true" />
+            <element signature="e#198368#198373#0" expanded="true" />
+            <element signature="e#198384#198389#0" expanded="true" />
+            <element signature="e#198428#198433#0" expanded="true" />
+            <element signature="e#198444#198449#0" expanded="true" />
+            <element signature="e#198487#198491#0" expanded="true" />
+            <element signature="e#198495#198499#0" expanded="true" />
+            <element signature="e#198501#198505#0" expanded="true" />
+            <element signature="e#198505#198509#0" expanded="true" />
+            <element signature="e#198513#198517#0" expanded="true" />
+            <element signature="e#198554#198558#0" expanded="true" />
+            <element signature="e#198562#198566#0" expanded="true" />
+            <element signature="e#198575#198579#0" expanded="true" />
+            <element signature="e#198583#198587#0" expanded="true" />
+            <element signature="e#198600#198604#0" expanded="true" />
+            <element signature="e#198631#198635#0" expanded="true" />
+            <element signature="e#198645#198649#0" expanded="true" />
+            <element signature="e#198780#198784#0" expanded="true" />
+            <element signature="e#198834#198838#0" expanded="true" />
+            <element signature="e#198872#198876#0" expanded="true" />
+            <element signature="e#198889#198893#0" expanded="true" />
+            <element signature="e#198926#198931#0" expanded="true" />
+            <element signature="e#198936#198941#0" expanded="true" />
+            <element signature="e#198949#198954#0" expanded="true" />
+            <element signature="e#198963#198968#0" expanded="true" />
+            <element signature="e#199005#199010#0" expanded="true" />
+            <element signature="e#199015#199020#0" expanded="true" />
+            <element signature="e#199031#199036#0" expanded="true" />
+            <element signature="e#199075#199080#0" expanded="true" />
+            <element signature="e#199091#199096#0" expanded="true" />
+            <element signature="e#199134#199138#0" expanded="true" />
+            <element signature="e#199138#199142#0" expanded="true" />
+            <element signature="e#199204#199209#0" expanded="true" />
+            <element signature="e#199262#199266#0" expanded="true" />
+            <element signature="e#199266#199270#0" expanded="true" />
+            <element signature="e#199272#199276#0" expanded="true" />
+            <element signature="e#199289#199293#0" expanded="true" />
+            <element signature="e#199360#199365#0" expanded="true" />
+            <element signature="e#199370#199375#0" expanded="true" />
+            <element signature="e#199383#199388#0" expanded="true" />
+            <element signature="e#199397#199402#0" expanded="true" />
+            <element signature="e#199439#199444#0" expanded="true" />
+            <element signature="e#199449#199454#0" expanded="true" />
+            <element signature="e#199465#199470#0" expanded="true" />
+            <element signature="e#199509#199514#0" expanded="true" />
+            <element signature="e#199525#199530#0" expanded="true" />
+            <element signature="e#199568#199572#0" expanded="true" />
+            <element signature="e#199572#199576#0" expanded="true" />
+            <element signature="e#199578#199582#0" expanded="true" />
+            <element signature="e#199602#199606#0" expanded="true" />
+            <element signature="e#199610#199614#0" expanded="true" />
+            <element signature="e#199623#199627#0" expanded="true" />
+            <element signature="e#199654#199658#0" expanded="true" />
+            <element signature="e#199658#199662#0" expanded="true" />
+            <element signature="e#199707#199712#0" expanded="true" />
+            <element signature="e#199717#199722#0" expanded="true" />
+            <element signature="e#199730#199735#0" expanded="true" />
+            <element signature="e#199744#199749#0" expanded="true" />
+            <element signature="e#199786#199791#0" expanded="true" />
+            <element signature="e#199796#199801#0" expanded="true" />
+            <element signature="e#199812#199817#0" expanded="true" />
+            <element signature="e#199856#199861#0" expanded="true" />
+            <element signature="e#199872#199877#0" expanded="true" />
+            <element signature="e#199915#199919#0" expanded="true" />
+            <element signature="e#199922#199926#0" expanded="true" />
+            <element signature="e#199928#199932#0" expanded="true" />
+            <element signature="e#199932#199936#0" expanded="true" />
+            <element signature="e#199940#199944#0" expanded="true" />
+            <element signature="e#199981#199985#0" expanded="true" />
+            <element signature="e#199989#199993#0" expanded="true" />
+            <element signature="e#200019#200023#0" expanded="true" />
+            <element signature="e#200158#200162#0" expanded="true" />
+            <element signature="e#200212#200216#0" expanded="true" />
+            <element signature="e#200250#200254#0" expanded="true" />
+            <element signature="e#200267#200271#0" expanded="true" />
+            <element signature="e#200308#200313#0" expanded="true" />
+            <element signature="e#200318#200323#0" expanded="true" />
+            <element signature="e#200331#200336#0" expanded="true" />
+            <element signature="e#200345#200350#0" expanded="true" />
+            <element signature="e#200387#200392#0" expanded="true" />
+            <element signature="e#200397#200402#0" expanded="true" />
+            <element signature="e#200413#200418#0" expanded="true" />
+            <element signature="e#200457#200462#0" expanded="true" />
+            <element signature="e#200473#200478#0" expanded="true" />
+            <element signature="e#200516#200520#0" expanded="true" />
+            <element signature="e#200520#200524#0" expanded="true" />
+            <element signature="e#200585#200590#0" expanded="true" />
+            <element signature="e#200643#200647#0" expanded="true" />
+            <element signature="e#200647#200651#0" expanded="true" />
+            <element signature="e#200653#200657#0" expanded="true" />
+            <element signature="e#200670#200674#0" expanded="true" />
+            <element signature="e#200745#200750#0" expanded="true" />
+            <element signature="e#200755#200760#0" expanded="true" />
+            <element signature="e#200768#200773#0" expanded="true" />
+            <element signature="e#200782#200787#0" expanded="true" />
+            <element signature="e#200824#200829#0" expanded="true" />
+            <element signature="e#200834#200839#0" expanded="true" />
+            <element signature="e#200850#200855#0" expanded="true" />
+            <element signature="e#200894#200899#0" expanded="true" />
+            <element signature="e#200910#200915#0" expanded="true" />
+            <element signature="e#200953#200957#0" expanded="true" />
+            <element signature="e#200957#200961#0" expanded="true" />
+            <element signature="e#200963#200967#0" expanded="true" />
+            <element signature="e#200987#200991#0" expanded="true" />
+            <element signature="e#200995#200999#0" expanded="true" />
+            <element signature="e#201008#201012#0" expanded="true" />
+            <element signature="e#201039#201043#0" expanded="true" />
+            <element signature="e#201043#201047#0" expanded="true" />
+            <element signature="e#201100#201105#0" expanded="true" />
+            <element signature="e#201110#201115#0" expanded="true" />
+            <element signature="e#201123#201128#0" expanded="true" />
+            <element signature="e#201137#201142#0" expanded="true" />
+            <element signature="e#201179#201184#0" expanded="true" />
+            <element signature="e#201189#201194#0" expanded="true" />
+            <element signature="e#201205#201210#0" expanded="true" />
+            <element signature="e#201249#201254#0" expanded="true" />
+            <element signature="e#201265#201270#0" expanded="true" />
+            <element signature="e#201308#201312#0" expanded="true" />
+            <element signature="e#201319#201323#0" expanded="true" />
+            <element signature="e#201325#201329#0" expanded="true" />
+            <element signature="e#201329#201333#0" expanded="true" />
+            <element signature="e#201337#201341#0" expanded="true" />
+            <element signature="e#201378#201382#0" expanded="true" />
+            <element signature="e#201386#201390#0" expanded="true" />
+            <element signature="e#201416#201420#0" expanded="true" />
+            <element signature="e#201567#201571#0" expanded="true" />
+            <element signature="e#201621#201625#0" expanded="true" />
+            <element signature="e#201659#201663#0" expanded="true" />
+            <element signature="e#201676#201680#0" expanded="true" />
+            <element signature="e#201731#201736#0" expanded="true" />
+            <element signature="e#201741#201746#0" expanded="true" />
+            <element signature="e#201754#201759#0" expanded="true" />
+            <element signature="e#201768#201773#0" expanded="true" />
+            <element signature="e#201810#201815#0" expanded="true" />
+            <element signature="e#201820#201825#0" expanded="true" />
+            <element signature="e#201836#201841#0" expanded="true" />
+            <element signature="e#201880#201885#0" expanded="true" />
+            <element signature="e#201896#201901#0" expanded="true" />
+            <element signature="e#201939#201943#0" expanded="true" />
+            <element signature="e#201943#201947#0" expanded="true" />
+            <element signature="e#202008#202013#0" expanded="true" />
+            <element signature="e#202066#202070#0" expanded="true" />
+            <element signature="e#202070#202074#0" expanded="true" />
+            <element signature="e#202076#202080#0" expanded="true" />
+            <element signature="e#202093#202097#0" expanded="true" />
+            <element signature="e#202182#202187#0" expanded="true" />
+            <element signature="e#202192#202197#0" expanded="true" />
+            <element signature="e#202205#202210#0" expanded="true" />
+            <element signature="e#202219#202224#0" expanded="true" />
+            <element signature="e#202261#202266#0" expanded="true" />
+            <element signature="e#202271#202276#0" expanded="true" />
+            <element signature="e#202287#202292#0" expanded="true" />
+            <element signature="e#202331#202336#0" expanded="true" />
+            <element signature="e#202347#202352#0" expanded="true" />
+            <element signature="e#202390#202394#0" expanded="true" />
+            <element signature="e#202394#202398#0" expanded="true" />
+            <element signature="e#202400#202404#0" expanded="true" />
+            <element signature="e#202424#202428#0" expanded="true" />
+            <element signature="e#202432#202436#0" expanded="true" />
+            <element signature="e#202445#202449#0" expanded="true" />
+            <element signature="e#202476#202480#0" expanded="true" />
+            <element signature="e#202480#202484#0" expanded="true" />
+            <element signature="e#202549#202554#0" expanded="true" />
+            <element signature="e#202559#202564#0" expanded="true" />
+            <element signature="e#202572#202577#0" expanded="true" />
+            <element signature="e#202586#202591#0" expanded="true" />
+            <element signature="e#202628#202633#0" expanded="true" />
+            <element signature="e#202638#202643#0" expanded="true" />
+            <element signature="e#202654#202659#0" expanded="true" />
+            <element signature="e#202698#202703#0" expanded="true" />
+            <element signature="e#202714#202719#0" expanded="true" />
+            <element signature="e#202757#202761#0" expanded="true" />
+            <element signature="e#202766#202770#0" expanded="true" />
+            <element signature="e#202772#202776#0" expanded="true" />
+            <element signature="e#202776#202780#0" expanded="true" />
+            <element signature="e#202784#202788#0" expanded="true" />
+            <element signature="e#202825#202829#0" expanded="true" />
+            <element signature="e#202833#202837#0" expanded="true" />
+            <element signature="e#202846#202850#0" expanded="true" />
+            <element signature="e#202854#202858#0" expanded="true" />
+            <element signature="e#202861#202865#0" expanded="true" />
+            <element signature="e#202869#202873#0" expanded="true" />
+            <element signature="n#style#0;n#tbody#1;n#table#0;n#div#0;n#div#0;n#div#1;n#div#1;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tbody#2;n#table#0;n#div#0;n#div#0;n#div#1;n#div#1;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tbody#3;n#table#0;n#div#0;n#div#0;n#div#1;n#div#1;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tbody#4;n#table#0;n#div#0;n#div#0;n#div#1;n#div#1;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#249977#249981#0" expanded="true" />
+            <element signature="e#249981#249985#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#font#1;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#266169#266175#1" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#269123#269129#0" expanded="true" />
+            <element signature="e#269409#269415#1" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#font#1;n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#272552#272558#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#2;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#275271#275277#0" expanded="true" />
+            <element signature="e#275661#275667#0" expanded="true" />
+            <element signature="e#275668#275674#0" expanded="true" />
+            <element signature="e#276146#276152#0" expanded="true" />
+            <element signature="e#276153#276159#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#3;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#280822#280826#0" expanded="true" />
+            <element signature="e#280826#280830#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#4;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#282433#282439#0" expanded="true" />
+            <element signature="e#282839#282845#0" expanded="true" />
+            <element signature="e#282846#282852#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#6;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#293290#293296#0" expanded="true" />
+            <element signature="e#293678#293684#0" expanded="true" />
+            <element signature="e#293685#293691#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#7;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#7;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#295359#295365#0" expanded="true" />
+            <element signature="e#295366#295372#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#7;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#295714#295720#0" expanded="true" />
+            <element signature="e#296135#296141#0" expanded="true" />
+            <element signature="e#296142#296148#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#8;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#297652#297658#0" expanded="true" />
+            <element signature="e#298049#298055#0" expanded="true" />
+            <element signature="e#298056#298062#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#9;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#299552#299558#0" expanded="true" />
+            <element signature="e#299935#299941#0" expanded="true" />
+            <element signature="e#299942#299948#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#10;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#301422#301428#0" expanded="true" />
+            <element signature="e#301814#301820#0" expanded="true" />
+            <element signature="e#301821#301827#0" expanded="true" />
+            <element signature="e#302328#302334#0" expanded="true" />
+            <element signature="e#302335#302341#0" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#309463#309467#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/proxy1.json">
+    <entry file="file://$PROJECT_DIR$/Proxy/ghostdriver.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/crawl_kuaidaili_proxies.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2881" selection-start-column="2881" selection-end-column="2881" />
+        <state relative-caret-position="550">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/proxy10.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/proxy43.json">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Proxy/alternate_proxies.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2010">
-          <caret line="134" column="24" selection-start-line="134" selection-start-column="24" selection-end-line="134" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1542461728181" expanded="true" signature="363:1326" ph="..." />
-            <marker date="1542461728181" expanded="true" signature="1352:1361" ph="..." />
-            <marker date="1542461728181" expanded="true" signature="2687:3136" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/crawlIP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        <state relative-caret-position="264">
+          <caret line="81" column="13" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/test115.28.40.85.html">
+    <entry file="file://$PROJECT_DIR$/multiprocessing_lagou.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="3066">
+          <caret line="258" column="30" selection-start-line="258" selection-start-column="30" selection-end-line="258" selection-end-column="30" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/test49.81.125.43.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/test110.167.30.50.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Proxy/etc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/text.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="418">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Proxy/proxy_io.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1276">
-          <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-            <marker date="1542461492824" expanded="true" signature="406:710" ph="..." />
-          </folding>
+        <state relative-caret-position="66">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/lib/python3/dist-packages/bs4/dammit.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="321" column="19" selection-start-line="321" selection-start-column="19" selection-end-line="321" selection-end-column="19" />
+        <state relative-caret-position="198">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/redisconnector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
+        <state relative-caret-position="594">
           <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="e#15#27#0" expanded="true" />
@@ -716,21 +1218,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/test118.24.156.214.html">
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/verify_proxy_validity.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="352">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
-            <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#13#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/test115.218.215.192.html">
+    <entry file="file://$PROJECT_DIR$/Uniqueness.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
